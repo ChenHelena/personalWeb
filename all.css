@@ -326,3 +326,13 @@ span {
 .footer span {
   margin-bottom: 16px;
 }
+
+
+.experience li::before {
+  content: "\2022";
+  color: #891818;
+  display: inline-block;
+  width: 2rem;
+  font-size: 40px;
+  margin-left: -2rem;
+}
